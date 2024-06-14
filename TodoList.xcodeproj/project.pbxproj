@@ -13,6 +13,7 @@
 		815D9D7F2BC413800050957E /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815D9D7E2BC413800050957E /* LandingView.swift */; };
 		815D9D812BC413810050957E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815D9D802BC413810050957E /* Assets.xcassets */; };
 		815D9D842BC413810050957E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 815D9D832BC413810050957E /* Preview Assets.xcassets */; };
+		DF0C101D2C1C9325008E02B0 /* Superbase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0C101C2C1C9325008E02B0 /* Superbase.swift */; };
 		DF448BC72C076A0F00D4C3B8 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF448BC62C076A0F00D4C3B8 /* TodoListViewModel.swift */; };
 		DF448BCA2C07765A00D4C3B8 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = DF448BC92C07765A00D4C3B8 /* Auth */; };
 		DF448BCC2C07765A00D4C3B8 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = DF448BCB2C07765A00D4C3B8 /* Functions */; };
@@ -29,6 +30,7 @@
 		815D9D7E2BC413800050957E /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		815D9D802BC413810050957E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		815D9D832BC413810050957E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF0C101C2C1C9325008E02B0 /* Superbase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superbase.swift; sourceTree = "<group>"; };
 		DF448BC62C076A0F00D4C3B8 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,7 @@
 		815D9D8C2BC414270050957E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				DF0C101C2C1C9325008E02B0 /* Superbase.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF0C101D2C1C9325008E02B0 /* Superbase.swift in Sources */,
 				815D9D7F2BC413800050957E /* LandingView.swift in Sources */,
 				814A08FC2BC41BC500921E4F /* ItemView.swift in Sources */,
 				814A08FE2BC41C7800921E4F /* TodoItem.swift in Sources */,
