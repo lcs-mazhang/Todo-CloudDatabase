@@ -5,6 +5,7 @@
 //  Created by GengYu Zhang on 2024-06-14.
 //
 
+import Foundation
 import Supabase
 
 let supabase = SupabaseClient(
